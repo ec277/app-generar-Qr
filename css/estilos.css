@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background: #f2f2f2;*/
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	width: 100%;
+	background: #cbcddb; 
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor-img {
+	/* display: flex; */
+	/*justify-content: center; */
+	padding: 10px;
+}
+
+header img {
+	width: 80px;
+}
+
+.contenedor-titulo {
+	/* display: flex; */
+	/* justify-content: center; */
+	padding: 20px;
+}
+
+.contenedor {
+	max-width: 90%;
+	height: 450px;
+	width: 400px;
+	margin: 25px auto;
+}
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: #e7e6e6;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn {
+	width: 100%;
+	border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn:hover {
+	background: #57585a;
+}
+
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+footer {
+	width: 100%;
+	background: #cbcddb;
+	padding: 10px;
+	text-align: center;
+	color: #2f2e2e;
+}

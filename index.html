@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Código QR </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/estilos.css" />
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script defer src="./js/app.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="contenedor-img">
+				<img src="./img/qr-code-6331792_640.png" alt="">
+			</div>
+			<div>
+				<h1>Generador de Códigos QR</h1>
+			</div>
+			
+		</header>
+		<div class="contenedor">
+			<form action="" id="formulario" class="formulario">
+				<input type="text" id="link" placeholder="Escribe el texto o URL" />
+				<button class="btn">Generar QR</button>
+			</form>
+
+			<div id="contenedorQR" class="contenedorQR"></div>
+		</div>
+
+		<footer>
+			<p>Desarrollo &COPY; Rene Everardo Contreras Arias</p>
+		</footer>
+	</body>
+</html>
